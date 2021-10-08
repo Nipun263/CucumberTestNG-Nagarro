@@ -65,7 +65,7 @@ public class UserRegistration {
 			}
 		}
 
-		Thread.sleep(5000);
+		Thread.sleep(8000);
 
 		WebElement accountBtn = driver.findElement(By.xpath("//*[@id='Secondary_Navbar-Account']"));
 
