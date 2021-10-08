@@ -124,6 +124,15 @@
 				<version>5.5.3</version>
 
 			</plugin>
+			
+			
+				<plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-war-plugin</artifactId>
+        <version>3.3.2</version>
+        <configuration>
+        </configuration>
+      </plugin>
 
 
 			<!-- https://mvnrepository.com/artifact/net.masterthought/maven-cucumber-reporting -->
@@ -153,13 +162,7 @@
 
 				</executions>
 			</plugin>
-				 <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-war-plugin</artifactId>
-                <configuration>
-                    <webXml>WebContent\WEB-INF\web.xml</webXml>
-                </configuration>
-            </plugin>
+			
 
 
 		</plugins>
