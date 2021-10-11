@@ -101,6 +101,10 @@ public class UserRegistration {
 		WebElement emailId = driver.findElement(By.xpath("//*[@name='email']"));
 		WebElement phoneNumber = driver.findElement(By.xpath("//*[@name='phonenumber']"));
 
+		for (int i = 0 ; i <=5 ; i ++) {
+			userName.sendKeys("A");
+		}
+		
 		userName.sendKeys("Cucumber");
 		lastName.sendKeys("Test");
 		emailId.sendKeys("test@test.com");

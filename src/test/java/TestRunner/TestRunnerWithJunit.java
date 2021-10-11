@@ -6,7 +6,7 @@ import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features = "C:\\Users\\nipunverma\\Desktop\\CucumberDemo\\src\\test\\java\\Feature\\FeatureWithTags.feature",
+@CucumberOptions(features = "C:\\Users\\nipunverma\\Desktop\\CucumberDemo\\src\\test\\java\\Feature\\SimpleFeature.feature",
 glue = {"StepDefination" }, tags = "@Smoke and @Sanity")
 
 
