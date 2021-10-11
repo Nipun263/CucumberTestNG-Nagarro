@@ -1,11 +1,11 @@
 Feature: UserRegistraion
 
+
   Scenario Outline: Validate New user is able to login
     Given User wants to land on homePage
     When User Passes the userCredentials
     Then user shoudl be able to see the landing page
     And User should be able to pass the credentials to complete Registration "<FirstName>" , "<LastName>" ,"<EmailAddress>" ,"<PhoneNumber>"
-  
   
   
  Examples: 
